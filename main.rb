@@ -956,4 +956,5 @@ iyr:2018
 ecl:#5b11eb
 byr:1950'
 split_data = data.split(/\n{2,}/)
+#use this regex pattern to split the data by blank lines
 puts split_data[0]
